@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Enable CORS for your frontend URL
 app.use(cors({
-  origin: process.env.FRONTEND_URL || "*", // For testing you can use "*"
+  origin: "https://lsign.netlify.app" || "*", // For testing you can use "*"
   credentials: true,
 }));
 
